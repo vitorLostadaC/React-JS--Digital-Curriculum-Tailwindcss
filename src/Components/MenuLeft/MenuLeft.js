@@ -103,7 +103,7 @@ export function MenuLeft() {
 
         <div>
           <div className="flex ">
-            <div className="px-2">
+            <div className="pr-2">
               <span className="relative block w-4 h-4 bg-assets rounded-full mt-1"></span>
               <span className="block w-0.5 h-24 bg-assets translate-x-[7px]"></span>
             </div>
@@ -117,7 +117,7 @@ export function MenuLeft() {
           </div>
 
           <div className="flex ">
-            <div className="px-2">
+            <div className="pr-2">
               <span className="relative block w-4 h-4 bg-assets rounded-full"></span>
               <span className="block w-0.5 h-20 bg-assets translate-x-[7px]"></span>
             </div>
