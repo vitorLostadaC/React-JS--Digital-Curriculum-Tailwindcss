@@ -12,6 +12,8 @@ module.exports = {
       menuRightColor: "#FAFAFA",
       menuLeftColor: "#E0F4FC",
       white: "#fff",
+      hoverLink: "#00C5A7",
+      redTest: "#ff0000",
     },
   },
   plugins: [],
