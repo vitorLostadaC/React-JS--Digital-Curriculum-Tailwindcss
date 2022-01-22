@@ -102,19 +102,32 @@ export function MenuLeft() {
         </h1>
 
         <div>
-          <div className="flex flex-col gap-1 mb-2">
-            <h3 className="font-bold text-titleColor">
-              Ensino médio integrado - Técnico em programação
-            </h3>
-            <p className="text-base text-textColor">Sesi Senai</p>
-            <p className="text-xs text-textColor">2018 - 2020</p>
+          <div className="flex ">
+            <div className="px-2">
+              <span className="relative block w-4 h-4 bg-assets rounded-full mt-1"></span>
+              <span className="block w-0.5 h-24 bg-assets translate-x-[7px]"></span>
+            </div>
+            <div className="flex flex-col gap-1 mb-2">
+              <h3 className="font-bold text-titleColor">
+                Ensino médio integrado - Técnico em programação
+              </h3>
+              <p className="text-base text-textColor">Sesi Senai</p>
+              <p className="text-xs text-textColor">2018 - 2020</p>
+            </div>
           </div>
-          <div className="flex flex-col gap-1 mb-2">
-            <h3 className="font-bold text-titleColor">
-              Ciências da Computação
-            </h3>
-            <p className="text-base text-textColor">Univali</p>
-            <p className="text-xs text-textColor">2021 - 2025</p>
+
+          <div className="flex ">
+            <div className="px-2">
+              <span className="relative block w-4 h-4 bg-assets rounded-full"></span>
+              <span className="block w-0.5 h-20 bg-assets translate-x-[7px]"></span>
+            </div>
+            <div className="flex flex-col gap-1 mb-2">
+              <h3 className="font-bold text-titleColor">
+                Ciências da Computação
+              </h3>
+              <p className="text-base text-textColor">Univali</p>
+              <p className="text-xs text-textColor">2021 - 2025</p>
+            </div>
           </div>
         </div>
       </section>
