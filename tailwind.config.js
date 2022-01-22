@@ -11,6 +11,7 @@ module.exports = {
       textColor: "#453635",
       menuRightColor: "#FAFAFA",
       menuLeftColor: "#E0F4FC",
+      assets: "#A9BCC3",
       white: "#fff",
       hoverLink: "#00C5A7",
       redTest: "#ff0000",

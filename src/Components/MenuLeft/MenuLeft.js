@@ -83,6 +83,41 @@ export function MenuLeft() {
           </a>
         </div>
       </section>
+
+      <section className="mt-8">
+        <h1 className="text-titleColor  text-xl font-semibold tracking-widest">
+          PERFIL
+        </h1>
+
+        <p className="text-textColor text-justify mt-4">
+          Olá me chamo Vitor, Atualmente estou cursando a faculdade e
+          estágiando. Adoro aprender e sempre me colocar em situações de
+          desconforto, pois acredito que assim aprendo melhor assim.
+        </p>
+      </section>
+
+      <section className="mt-8">
+        <h1 className="text-titleColor  text-xl font-semibold tracking-widest mb-4">
+          FORMAÇÃO
+        </h1>
+
+        <div>
+          <div className="flex flex-col gap-1 mb-2">
+            <h3 className="font-bold text-titleColor">
+              Ensino médio integrado - Técnico em programação
+            </h3>
+            <p className="text-base text-textColor">Sesi Senai</p>
+            <p className="text-xs text-textColor">2018 - 2020</p>
+          </div>
+          <div className="flex flex-col gap-1 mb-2">
+            <h3 className="font-bold text-titleColor">
+              Ciências da Computação
+            </h3>
+            <p className="text-base text-textColor">Univali</p>
+            <p className="text-xs text-textColor">2021 - 2025</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
