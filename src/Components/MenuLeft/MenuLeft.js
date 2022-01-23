@@ -15,7 +15,7 @@ export function MenuLeft() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="sm:bg-menuLeftColor sm:dark:bg-darkMenuLeftColor dark:bg-darkMenuRightColor p-6">
+    <div className="sm:bg-menuLeftColor bg-menuRightColor sm:dark:bg-darkMenuLeftColor dark:bg-darkMenuRightColor p-6">
       <section>
         {theme === "dark" ? (
           <BsFillLightbulbFill
