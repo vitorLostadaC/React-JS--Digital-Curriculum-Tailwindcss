@@ -105,9 +105,9 @@ export function MenuLeft() {
           <div className="flex ">
             <div className="pr-2">
               <span className="relative block w-4 h-4 bg-assets rounded-full mt-1"></span>
-              <span className="block w-0.5 h-24 bg-assets translate-x-[7px]"></span>
+              <span className="block w-0.5 h-full bg-assets translate-x-[7px]"></span>
             </div>
-            <div className="flex flex-col gap-1 mb-2">
+            <div className="flex flex-col gap-1 mb-4">
               <h3 className="font-bold text-titleColor">
                 Ensino médio integrado - Técnico em programação
               </h3>
@@ -118,8 +118,8 @@ export function MenuLeft() {
 
           <div className="flex ">
             <div className="pr-2">
-              <span className="relative block w-4 h-4 bg-assets rounded-full"></span>
-              <span className="block w-0.5 h-20 bg-assets translate-x-[7px]"></span>
+              <span className="relative block w-4 h-4 bg-assets rounded-full mt-1"></span>
+              <span className="block w-0.5 h-16 bg-assets translate-x-[7px]"></span>
             </div>
             <div className="flex flex-col gap-1 mb-2">
               <h3 className="font-bold text-titleColor">

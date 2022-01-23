@@ -6,7 +6,7 @@ export function MenuRight() {
           HABILIDADES TÉCINCAS
         </h1>
 
-        <div className="flex flex-row gap-2 ">
+        <div className="flex flex-row gap-2">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
             className="w-8"
@@ -40,6 +40,49 @@ export function MenuRight() {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             className="w-8"
           />
+        </div>
+      </section>
+
+      <section className="mt-8">
+        <h1 className="text-titleColor  text-xl font-semibold tracking-widest mb-4">
+          EXPERIÊNCIAS
+        </h1>
+
+        <div>
+          <div className="flex ">
+            <div className="pr-2">
+              <span className="relative block w-4 h-4 bg-assets rounded-full mt-1"></span>
+              <span className="block w-0.5 h-full bg-assets translate-x-[7px]"></span>
+            </div>
+
+            <div className="flex flex-col gap-1 mb-4">
+              <h3 className="font-bold text-titleColor">
+                Estagiário de analise e desenvolvimento de sistemas
+              </h3>
+              <p className="text-xs text-textColor">
+                Canteiro Digital - Junho 2021
+              </p>
+              <p className="text-base text-textColor">
+                Atual emprego onde sou o unico programador da startup,
+                atualmente estou construindo seu web app com react Js.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex ">
+            <div className="pr-2">
+              <span className="relative block w-4 h-4 bg-assets rounded-full mt-1"></span>
+            </div>
+
+            <div className="flex flex-col gap-1 mb-2">
+              <h3 className="font-bold text-titleColor">Freelancer</h3>
+              <p className="text-base text-textColor">
+                Atuo como freelancer desde outubro, para ganhar uma renda extra,
+                consequentemente ganhando mais conhecimento, pratica e
+                experiência.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
