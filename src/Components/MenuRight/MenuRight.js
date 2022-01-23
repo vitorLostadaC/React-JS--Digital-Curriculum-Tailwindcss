@@ -63,8 +63,8 @@ export function MenuRight() {
                 Canteiro Digital - Junho 2021
               </p>
               <p className="text-base text-textColor">
-                Atual emprego onde sou o unico programador da startup,
-                atualmente estou construindo seu web app com react Js.
+                Atual emprego, onde sou o único programador da startup, estou
+                construindo seu web app com React Js e Firebase.
               </p>
             </div>
           </div>
@@ -83,6 +83,32 @@ export function MenuRight() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="mt-8">
+        <h1 className="text-titleColor  text-xl font-semibold tracking-widest mb-4">
+          CERTIFICAÇÕES
+        </h1>
+
+        <div>
+          <div>
+            <h1 className="font-medium text-titleColor text-lg">
+              Programação para Web
+            </h1>
+            <p>Derhaus Treinamento - Palhoça - 72 horas - Agosto 2017</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-8">
+        <h1 className="text-titleColor  text-xl font-semibold tracking-widest mb-4">
+          IDIOMAS
+        </h1>
+
+        <div className="flex justify-around items-center">
+          <p>Português | Nativo</p>
+          <p>Inglês | Basico</p>
         </div>
       </section>
     </div>

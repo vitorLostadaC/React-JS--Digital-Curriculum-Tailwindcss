@@ -91,7 +91,7 @@ export function MenuLeft() {
 
         <p className="text-textColor text-justify mt-4">
           Olá me chamo Vitor, Atualmente estou cursando a faculdade e
-          estágiando. Adoro aprender e sempre me colocar em situações de
+          estagiando. Adoro aprender e sempre me colocar em situações de
           desconforto, pois acredito que assim aprendo melhor assim.
         </p>
       </section>
