@@ -131,7 +131,7 @@ export function MenuLeft() {
         </h1>
 
         <p className="text-textColor dark:text-darkTextColor text-justify mt-4">
-          Olá me chamo Vitor, Atualmente estou cursando a faculdade e
+          Olá me chamo Vitor. Atualmente estou cursando a faculdade e
           estagiando. Adoro aprender e sempre me colocar em situações de
           desconforto, pois acredito que assim aprendo melhor assim.
         </p>

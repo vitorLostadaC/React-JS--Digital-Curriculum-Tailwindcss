@@ -58,8 +58,8 @@ export function MenuRight() {
                 Canteiro Digital - Junho 2021
               </p>
               <p className="text-base text-textColor dark:text-darkTextColor">
-                Atual emprego, onde sou o único programador da startup, estou
-                construindo seu web app com React Js e Firebase.
+                Em meu atual emprego, sou o único programador da startup, estou
+                construindo um web app com React Js e Firebase.
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ export function MenuRight() {
               </h3>
               <p className="text-base text-textColor dark:text-darkTextColor">
                 Atuo como freelancer desde outubro, para ganhar uma renda extra,
-                consequentemente ganhando mais conhecimento, pratica e
+                consequentemente ganhando mais conhecimento, prática e
                 experiência.
               </p>
             </div>
