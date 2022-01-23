@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: "class",
   content: ["./src/**/*.{js,jsx,ts,tsx}", "/public/index.html"],
   theme: {
     extend: {},
@@ -14,7 +15,12 @@ module.exports = {
       assets: "#A9BCC3",
       white: "#fff",
       hoverLink: "#00C5A7",
-      redTest: "#ff0000",
+
+      darkBodyColor: "#2B2B2B",
+      darkTitleColor: "#D8DBD0",
+      darkTextColor: "#F2F3EF",
+      darkMenuRightColor: "#212121",
+      darkMenuLeftColor: "#181616",
     },
   },
   plugins: [],
