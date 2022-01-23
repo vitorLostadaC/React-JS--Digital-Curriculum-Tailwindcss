@@ -8,7 +8,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 
 export function MenuLeft() {
   return (
-    <div className="bg-menuLeftColor p-6">
+    <div className="sm:bg-menuLeftColor p-6">
       <section>
         <div className="w-32 h-32 overflow-hidden rounded-full mx-auto flex justify-center items-center ">
           <img src={perfilPhoto} />

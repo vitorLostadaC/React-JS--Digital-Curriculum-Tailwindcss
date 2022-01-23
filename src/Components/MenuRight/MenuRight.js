@@ -6,7 +6,7 @@ export function MenuRight() {
           HABILIDADES TÉCINCAS
         </h1>
 
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row gap-2 flex-wrap">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
             className="w-8"
