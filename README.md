@@ -9,6 +9,11 @@
 
 https://curriculo-tailwind.firebaseapp.com/
 
+## Installation
+
+  1. `$ npm install` or `$ yarn`
+  2. `$ npm start` or `$ yarn start`
+
 ## Functionalities
 
 + Responsive design
