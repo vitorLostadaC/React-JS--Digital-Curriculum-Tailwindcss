@@ -4,9 +4,7 @@ export const ThemeContext = createContext();
 
 export function ThemeContextProvider({ children }) {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") !== "null"
-      ? localStorage.getItem("theme")
-      : "ligth"
+    localStorage.getItem("theme") === "dark" ? "dark" : "ligth"
   );
 
   useEffect(() => {
