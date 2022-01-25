@@ -10,12 +10,6 @@ export function ThemeContextProvider({ children }) {
   useEffect(() => {
     const root = window.document.documentElement;
 
-    let backgoundColor;
-    if (theme === "ligth") backgoundColor = "#F2F3EF";
-    else backgoundColor = "#2B2B2B";
-
-    document.body.style.backgroundColor = backgoundColor;
-
     const removeColor = theme === "ligth" ? "dark" : "ligth";
 
     root.classList.remove(removeColor);
